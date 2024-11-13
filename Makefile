@@ -8,4 +8,4 @@ bin/testNode: testNode.cpp Node.h
 	g++ -o bin/testNode testNode.cpp Node.h
 	
 clean:
-	rm -r *.o *.gch bin
+	rm -r *.o *.gch bin 

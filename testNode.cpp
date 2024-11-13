@@ -10,7 +10,7 @@ int main(){
     Node<char>* aux = first;
     while (aux != nullptr){
         std::cout << aux->data << " ";
-        aux = aux->next;
+        aux = aux->next; 
     }
     std::cout << std::endl;
 }
